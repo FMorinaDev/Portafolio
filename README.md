@@ -1,29 +1,60 @@
-# PortafolioFM
+# 🌐 Portafolio – Franco Morina
 
-This template should help get you started developing with Vue 3 in Vite.
+¡Bienvenido/a a mi portafolio personal! Aquí encontrarás una selección de proyectos, artículos y recursos que reflejan mi trabajo como desarrollador full‑stack.
 
-## Recommended IDE Setup
+## ⚡ Demo en vivo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+> [https://fmorinadev.github.io/Portafolio/](https://fmorinadev.github.io/Portafolio/)
 
-## Customize configuration
+*(Si el enlace no está activo, mira la [sección de despliegue](#-despliegue) para levantarlo localmente o visita la rama `gh-pages`).*
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## ✨ Tecnologías principales
 
-## Project Setup
+| Categoría         | Stack                                                     |
+| ----------------- | --------------------------------------------------------- |
+| **Frontend**      | [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/) |
+| **Estilos**       | [Tailwind CSS](https://tailwindcss.com/)                  |
 
-```sh
-pnpm install
+## 🚀 Características
+
+* Diseño **100 % responsivo** (Mobile‑First).
+* PWA: instalable en escritorio y móvil.
+* Lazy‑loading de imágenes y componentes.
+
+## 🛠️ Instalación rápida
+
+```bash
+# clona el repo
+git clone https://github.com/FMorinaDev/Portafolio.git
+cd portfolio
+
+# instala dependencias
+pnpm install  # o npm install
+
+# arranca el servidor de desarrollo
+pnpm dev      # abre http://localhost:5173
 ```
 
-### Compile and Hot-Reload for Development
+### Scripts útiles
 
-```sh
-pnpm dev
-```
+| Comando        | Descripción                   |
+| -------------- | ----------------------------- |
+| `pnpm dev`     | Inicia servidor hot‑reload    |
+| `pnpm build`   | Compila producción en `/dist` |
+| `pnpm preview` | Sirve la build localmente     |
 
-### Compile and Minify for Production
 
-```sh
-pnpm build
-```
+## 🤝 Contribuir
+
+¡Se agradecen sugerencias!
+
+## 📝 Licencia
+
+Este proyecto está bajo la **CC BY-NC-ND 4.0 License** – ver [LICENSE](LICENSE) para más detalles.
+
+---
+
+**Contacto**
+
+* 📧 [francomorinaa@gmail.com](mailto:francomorinaa@gmail.com)
+* 💼 [LinkedIn](https://www.linkedin.com/in/franco-miguel-morina-comoglio-8a364565/)
