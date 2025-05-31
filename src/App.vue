@@ -6,6 +6,7 @@
     <Experiencia></Experiencia>
     <Educacion></Educacion>
     <Habilidades></Habilidades>
+    <Proyectos></Proyectos>
     <Contacto></Contacto>
     <Footer></Footer>
   </div>
@@ -18,6 +19,7 @@ import SobreMi from './components/SobreMi.vue';
 import Experiencia from './components/Experiencia.vue';
 import Educacion from './components/Educacion.vue';
 import Habilidades from './components/Habilidades.vue';
+import Proyectos from './components/Proyectos.vue';
 import Contacto from './components/Contacto.vue';
 import Footer from './components/Footer.vue';
 </script>

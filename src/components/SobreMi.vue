@@ -15,7 +15,7 @@ import { sobreMi } from '@/data/data';
 </script>
 <style lang="postcss" scoped>
 .sobre-mi{
-    @apply py-20 bg-white;
+    @apply py-16 bg-white;
     .contenedor{
         @apply container mx-auto px-4;
         .section-fade {

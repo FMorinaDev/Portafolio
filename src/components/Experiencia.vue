@@ -29,7 +29,7 @@ import { experiencia } from '@/data/data';
 </script>
 <style lang="postcss" scoped>
 .experiencia{
-    @apply py-20 bg-gray-50;
+    @apply py-16 bg-gray-50;
     .contenedor{
         @apply container mx-auto px-4 relative;
         h2{

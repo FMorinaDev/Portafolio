@@ -38,7 +38,7 @@ const redirect = (link) => {
 </script>
 <style lang="postcss" scoped>
 .educacion{
-    @apply py-20 bg-white;
+    @apply py-16 bg-white;
     .contenedor{
         @apply container mx-auto px-4;
         h2{
@@ -64,7 +64,7 @@ const redirect = (link) => {
             }
         }
         .contenedor-cursos{
-            @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+            @apply grid grid-cols-1 md:grid-cols-2 gap-6 mb-0;
             .redirect{
                 cursor: pointer;
             }

@@ -1,29 +1,29 @@
 <template>
-    <section id="habilidades" class="habilidades">
+    <section class="proyecto" id="proyectos">
         <div class="contenedor">
             <div class="section-fade visible">
-                <h2>Habilidades Técnicas</h2>
-                <div class="lista-habilidades">
-                    <ChipItem v-for="(skill, index) in habilidades" :key="index" :skill="skill" />
+                <h2>Mis Proyectos</h2>
+                <div class="items">
+                    <ProyectoItem v-for="(item, index) in proyectos" :key="index" :proyecto="item"></ProyectoItem>
                 </div>
             </div>
         </div>
     </section>
 </template>
 <script setup>
-import ChipItem from './ChipItem.vue'
-import { habilidades } from '@/data/data'; 
+import { proyectos } from '@/data/data';
+import ProyectoItem from './ProyectoItem.vue';
 </script>
 <style lang="postcss" scoped>
-.habilidades{
-    @apply py-16 bg-gray-50;
+.proyecto{
+    @apply py-16 bg-white;
     .contenedor{
-        @apply container mx-auto px-4;
+        @apply container mx-auto px-4 relative;
         h2{
             @apply text-3xl font-bold text-center text-gray-800 mb-12;
         }
-        .lista-habilidades{
-            @apply max-w-4xl mx-auto flex flex-wrap justify-center gap-4;
+        .items{
+            @apply grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto;
         }
     }
     .section-fade {

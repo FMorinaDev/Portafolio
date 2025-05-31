@@ -7,6 +7,7 @@
                 <a href="#experiencia" class="nav-link" @click="smoothScroll">Experiencia</a>
                 <a href="#formacion" class="nav-link" @click="smoothScroll">Formación</a>
                 <a href="#habilidades" class="nav-link" @click="smoothScroll">Habilidades</a>
+                <a href="#proyectos" class="nav-link" @click="smoothScroll">Proyectos</a>
                 <a href="#contacto" class="nav-link" @click="smoothScroll">Contacto</a>
             </div>
             <button id="mobile-menu-button" @click="toggleMenu">
@@ -21,6 +22,7 @@
                 <a href="#experiencia" @click="smoothScroll">Experiencia</a>
                 <a href="#formacion" @click="smoothScroll">Formación</a>
                 <a href="#habilidades" @click="smoothScroll">Habilidades</a>
+                <a href="#proyectos" @click="smoothScroll">Proyectos</a>
                 <a href="#contacto" @click="smoothScroll">Contacto</a>
             </div>
         </div>

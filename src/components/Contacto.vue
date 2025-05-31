@@ -134,7 +134,7 @@ const showMessage = (mensaje = '¡Ups! Hubo un error.') => {
 </script>
 <style lang="postcss" scoped>
     .contacto{
-        @apply py-20 bg-white;
+        @apply py-16 bg-gray-50;
         h2{
             @apply text-3xl font-bold text-center text-gray-800 mb-12;
         }

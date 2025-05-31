@@ -294,3 +294,44 @@ export const habilidades = [
         icono: ScrumIcon,
     },
 ]
+export const proyectos = [
+    {
+        nombre: 'Cotizador de Criptomonedas',
+        github: 'https://github.com/FMorinaDev/comparadorCrypto',
+        demo: 'https://comparadorcrpto.netlify.app'
+    },
+    {
+        nombre: 'Administrador de Gastos',
+        github: 'https://github.com/FMorinaDev/AdministradorGastos',
+        demo: 'https://administradorgastosfm.netlify.app'
+    },
+    {
+        nombre: 'Seguimiento de Pacientes Veterinaria ',
+        github: 'https://github.com/FMorinaDev/PacientesVeterinaria',
+        demo: 'https://pacientesveterinariafm.netlify.app'
+    },
+    {
+        nombre: 'GuitarLA',
+        github: 'https://github.com/FMorinaDev/guitarLA',
+        demo: 'https://guitarlafm.netlify.app'
+    },
+    {
+        nombre: 'Buscador Multicampos',
+        github: 'https://github.com/FMorinaDev/BuscadorMultiCampos',
+        demo: 'https://buscadormulticamposfm.netlify.app'
+    },
+    {
+        nombre: 'Envio Email',
+        github: 'https://github.com/FMorinaDev/EnvioMail',
+        demo: 'https://enviaremailfm.netlify.app'
+    },
+    {
+        nombre: 'Carrito de Compras HTML',
+        github: 'https://github.com/FMorinaDev/CarritoCompras',
+        demo: 'https://carritocomprashtmlfm.netlify.app'
+    },
+    {
+        nombre: 'Cypress',
+        github: 'https://github.com/FMorinaDev/cypress',
+    },
+]
