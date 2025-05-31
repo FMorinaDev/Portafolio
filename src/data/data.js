@@ -15,6 +15,9 @@ import SQLserverIcon from '@/assets/icons/sql.svg?component'
 import TailwindIcon from '@/assets/icons/tailwind.svg?component'
 import TypeScriptIcon from '@/assets/icons/typescript.svg?component'
 import VueJsIcon from '@/assets/icons/vue.svg?component'
+import PostmanIcon from '@/assets/icons/postman.svg?component'
+import GitIcon from '@/assets/icons/git.svg?component'
+import figmaIcon from '@/assets/icons/figma.svg?component'
 
 import IconTwitter from '@/components/icons/IconTwitter.vue'
 import IconInstagram from '@/components/icons/IconInstagram.vue'
@@ -56,30 +59,30 @@ export const datosPersonales = [
 ]
 export const experiencia = [
     {
-        cargo: 'Desarrollador web Full Stack',
+        cargo: 'Desarrollador web Full Stack | TL',
         empresa: 'AULICA',
         tiempo: 'Oct 2021 - Actualidad',
-        ubicacion: 'Córdoba, Córdoba, Argentina',
-        detalles: 'Mis áreas de especialización incluyen HTML, CSS, Vue.js, jQuery, C#, Node.js, así como bases de datos como Oracle, MySQL y MongoDB. Además, también estoy explorando el emocionante mundo de Flutter y haciendo test automáticos con Cypress.'
+        ubicacion: 'Córdoba, Argentina',
+        detalles: 'Actualmente como Desarrollador Full Stack y Lider Tecnico de un equipo de desarrollo. Me especializo en HTML, CSS, Vue.js, jQuery, C#, Node.js, así como bases de datos como Oracle, MySQL y MongoDB. Además estoy desarrollando aplicaciones multiplataforma con Flutter y haciendo test automáticos con Cypress.'
     },
     {
         cargo: 'Desarrollador web Full Stack',
         empresa: 'Dux Software',
         tiempo: 'Jun 2021 - Oct 2021',
-        ubicacion: 'Córdoba, Córdoba, Argentina',
+        ubicacion: 'Córdoba, Argentina',
         detalles: 'Comencé mi trayectoria laboral en esta empresa. Usando html, css, js, java y Oracle.'
     }
 ]
 export const sobreMi = [
-    'Soy Franco Miguel Morina Comoglio, un apasionado de la programación con raíces en General Levalle y residencia actual en Córdoba Capital. Poseo una sólida formación como Técnico Universitario en Programación, lo que me ha permitido embarcarme en una emocionante carrera profesional en el mundo del desarrollo de software.',
-    'Comencé mi trayectoria laboral como Full Stack en Dux Software, donde tuve la oportunidad de trabajar con tecnologías como Java, CSS, JavaScript y Oracle. Durante estos 3 meses, adquirí valiosos conocimientos y habilidades que sentaron las bases de mi experiencia técnica.',
-    'Actualmente, me desempeño como Full Stack en Aulica, donde continúo expandiendo mi conjunto de habilidades. Mis áreas de especialización incluyen HTML, CSS, Vue.js, jQuery, C#, Node.js, así como bases de datos como Oracle, MySQL y MongoDB. Además, también estoy explorando el emocionante mundo de Flutter, una plataforma de desarrollo de aplicaciones móviles multiplataforma.',
-    'Creo firmemente en el aprendizaje continuo y estoy siempre buscando nuevas oportunidades para crecer y desarrollarme tanto profesional como personalmente. Estoy emocionado por conectar con profesionales de ideas afines y explorar posibles colaboraciones y proyectos interesantes.',
+    'Soy Franco, desarrollador Full Stack con mas de 4 años de experiencia. Me forme como Tenico en programacion en la Universidad Tenologica Nacional de Cordoba y actualmente me sigo formando a traves de cursos que me ayudan a ampliar mis conocimientos y habilidades en nuevas tecnologias y lenguajes.',
+    'Comencé mi trayectoria laboral como Full Stack en Dux Software, donde trabaje con tecnologías como Java, CSS, JavaScript, PrimeFaes y Oracle. Me desarrolle en la emprea durante 3 meses en los cuales pude adquirir conocimientos y habilidades que me ayudaron a asentar las bases de mi experiencia tecnica.',
+    `Actualmente, me encuentro trabajando como Full Stack en 'Aulica', en donde soy TL de mi equipo de desarrollo lo cual me ayuda a su vez a expandir mi conjunto de habilidades. Mis áreas de especialización incluyen HTML, CSS, Vue.js, jQuery, C#, Node.js, así como bases de datos como Oracle, MySQL y MongoDB. Además estoy desarrollando aplicaciones multiplataforma en Flutter y creando test automaticos en Cypress.`,
+    'Me interesa seguir aprendiendo por lo que estoy siempre buscando nuevas oportunidades para crecer y desarrollarme tanto profesional como personalmente. Me encantaria poder concetar con profesionales de ideas afines y explorar posibles colaboraciones y proyectos interesantes.',
 ]
 export const educacion = [
     {
         tipo: 'universitario',
-        titulo: 'Técnico universitario',
+        titulo: 'Técnico Universitario en Programacion',
         institucion: 'UTN FRC',
         tiempo: 'Feb 2019 - Jun 2022'
     },
@@ -92,38 +95,121 @@ export const educacion = [
     {
         tipo: 'curso',
         titulo: 'Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL',
+        link: 'https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/',
         institucion: 'Udemy',
-        tiempo: 'Dic 2021 - Dic 2022'
+        tiempo: '83 Horas'
     },
     {
         tipo: 'curso',
         titulo: 'Vue.js: De cero a experto',
+        link: 'https://www.udemy.com/course/vuejs-fh/',
         institucion: 'Udemy',
-        tiempo: 'Ene 2022 — Abr 2022'
+        tiempo: '38 Horas'
     },
     {
         tipo: 'curso',
-        titulo: 'Programación en C#',
+        titulo: 'Vue.js 3 - La Guía Completa - Composition Pinia MEVN 10 Apps',
+        link: 'https://www.udemy.com/course/vuejs-la-guia-completa-composition-pinia-mevn-creando-proyectos-reales/',
         institucion: 'Udemy',
-        tiempo: 'Ago 2019 — Sep 2019'
+        tiempo: '41 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'Domina la Programación C# con Visual Studio DESDE CERO',
+        link: 'https://www.udemy.com/course/aprende-programacion-con-c-sharp-y-visual-studio-desde-cero/',
+        institucion: 'Udemy',
+        tiempo: '8 Horas'
     },
     {
         tipo: 'curso',
         titulo: 'Node: De cero a experto',
+        link: 'https://www.udemy.com/course/node-de-cero-a-experto/',
         institucion: 'Udemy',
-        tiempo: 'Dic 2021 — May 2022'
+        tiempo: '29 Horas'
     },
     {
         tipo: 'curso',
         titulo: 'Cypress: Master en automatización Test QA',
+        link: 'www.udemy.com/course/cypress-master-en-automatizacion-de-pruebas-y-qa-espanol/',
         institucion: 'Udemy',
-        tiempo: 'Ene 2022 — May 2022'
+        tiempo: '29 Horas'
     },
     {
         tipo: 'curso',
-        titulo: 'Node: Flutter - Móvil: De cero a experto',
+        titulo: 'Nest: Desarrollo backend escalable con Node',
+        link: 'https://www.udemy.com/course/nest-framework/',
         institucion: 'Udemy',
-        tiempo: 'Nov 2023 — Actualidad'
+        tiempo: '25 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'Curso de C# .NET desde cero hasta lo mas avanzado full stack',
+        link: 'https://www.udemy.com/course/curso-de-c-sharp-net-core-desde-cero/',
+        institucion: 'Udemy',
+        tiempo: '24 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'Git y GitHub 100% Práctico',
+        link: 'https://www.udemy.com/course/git-y-github-100-practico/',
+        institucion: 'Udemy',
+        tiempo: '1 Hora'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap',
+        link: 'https://www.udemy.com/course/master-en-css-responsive-sass-flexbox-grid-y-boostrap-4/',
+        institucion: 'Udemy',
+        tiempo: '21 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'UX: leyes y fundamentos explicados con ejemplos prácticos',
+        link: 'https://www.udemy.com/course/ux-leyes-y-fundamentos-explicados-con-ejemplos-practicos/',
+        institucion: 'Udemy',
+        tiempo: '2 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'Flutter - Móvil: De cero a experto',
+        link: 'https://www.udemy.com/course/flutter-cero-a-experto/',
+        institucion: 'Udemy',
+        tiempo: '50 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'Python TOTAL - Programador Avanzado en 16 días',
+        link: 'https://www.udemy.com/course/python-total/',
+        institucion: 'Udemy',
+        tiempo: '31 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'Máster en SQL Server: Desde Cero a Nivel Profesional',
+        link: 'https://www.udemy.com/course/master-sql-server/',
+        institucion: 'Udemy',
+        tiempo: '16 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'Java Avanzado',
+        link: 'https://www.udemy.com/course/java-avanzado-aplicaciones-empresariales-para-empleo/',
+        institucion: 'Udemy',
+        tiempo: '53 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'JavaScript Moderno Guía Definitiva Construye +20 Proyectos',
+        link: 'https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/',
+        institucion: 'Udemy',
+        tiempo: '53 Horas'
+    },
+    {
+        tipo: 'curso',
+        titulo: 'Freelancing: Curso Completo para Diseñadores y Programadores',
+        link: 'https://www.udemy.com/course/como-ser-un-freelancer-exitoso-para-diseno-y-desarrollo-web/',
+        institucion: 'Udemy',
+        tiempo: '6 Horas'
     },
 ]
 export const habilidades = [
@@ -190,6 +276,18 @@ export const habilidades = [
     {
         nombre: 'Cypress',
         icono: CypressIcon,
+    },
+    {
+        nombre: 'Postman',
+        icono: PostmanIcon,
+    },
+    {
+        nombre: 'Git',
+        icono: GitIcon,
+    },
+    {
+        nombre: 'Figma',
+        icono: figmaIcon,
     },
     {
         nombre: 'Scrum',

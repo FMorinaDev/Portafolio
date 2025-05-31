@@ -15,10 +15,10 @@
 
                     <h3>Cursos Realizados</h3>
                     <div class="contenedor-cursos">
-                        <div v-for="curso in cursos" :key="curso.id">
+                        <div v-for="curso in cursos" :key="curso.id" :class="{'redirect' : curso.link}" @click="redirect(curso.link)">
                             <h4>{{ curso.titulo }}</h4>
                             <p class="institucion">{{ curso.institucion }}</p>
-                            <p class="tiempo">{{ curso.tiempo }}</p>
+                            <p class="tiempo" v-if="curso.tiempo">{{ curso.tiempo }}</p>
                         </div>
                     </div>
                 </div>
@@ -30,6 +30,11 @@
 import { educacion } from '@/data/data'; 
 const cursos = educacion.filter(item => item.tipo === 'curso');
 const universitario = educacion.filter(item => item.tipo === 'universitario');
+const redirect = (link) => {
+    if (link) {
+        window.open(link, '_blank');
+    }
+}
 </script>
 <style lang="postcss" scoped>
 .educacion{
@@ -60,6 +65,9 @@ const universitario = educacion.filter(item => item.tipo === 'universitario');
         }
         .contenedor-cursos{
             @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+            .redirect{
+                cursor: pointer;
+            }
         }
     }
     .section-fade {

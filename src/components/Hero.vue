@@ -5,12 +5,12 @@
                 <h1>Franco Miguel Morina Comoglio</h1>
                 <h2>Desarrollador Full Stack</h2>
                 <p>
-                    Apasionado de la programación con raíces en General Levalle y residencia actual en Córdoba Capital. 
+                    Apasionado de la programación con residencia actual en Córdoba Capital. 
                     Especializado en desarrollo web y móvil con experiencia en múltiples tecnologías.
                 </p>
                 <div>
-                    <a href="#contacto" class="contacto">Contáctame</a>
-                    <a href="#experiencia" class="experiencia">Ver experiencia</a>
+                    <a href="#contacto" class="contacto" @click="smoothScroll">Contáctame</a>
+                    <a href="#experiencia" class="experiencia" @click="smoothScroll">Ver experiencia</a>
                 </div>
             </div>
             <div class="contenedor-imagen">
@@ -24,6 +24,20 @@
     </section>
 </template>
 <script setup>
+const smoothScroll = (e) => {
+  e.preventDefault()
+  const targetId = e.currentTarget.getAttribute('href')
+  if (!targetId) return
+
+  const targetElement = document.querySelector(targetId)
+  if (targetElement) {
+    const offsetTop = targetElement.offsetTop
+    window.scrollTo({
+      top: offsetTop - 80,
+      behavior: 'smooth'
+    })
+  }
+}
 </script>
 <style lang="postcss" scoped>
 .hero{

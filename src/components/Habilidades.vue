@@ -4,16 +4,14 @@
             <div class="section-fade visible">
                 <h2>Habilidades Técnicas</h2>
                 <div class="lista-habilidades">
-                    <div v-for="(skill, index) in habilidades" :key="index" class="skill-pill">
-                        <component :is="skill.icono" class="w-6 h-6  mr-3" />
-                        <span class="font-medium">{{ skill.nombre }}</span>
-                    </div>
+                    <ChipItem v-for="(skill, index) in habilidades" :key="index" :skill="skill" />
                 </div>
             </div>
         </div>
     </section>
 </template>
 <script setup>
+import ChipItem from './ChipItem.vue'
 import { habilidades } from '@/data/data'; 
 </script>
 <style lang="postcss" scoped>
@@ -26,16 +24,6 @@ import { habilidades } from '@/data/data';
         }
         .lista-habilidades{
             @apply max-w-4xl mx-auto flex flex-wrap justify-center gap-4;
-            
-            .skill-pill {
-                @apply bg-white px-6 py-4 rounded-full shadow-md border border-gray-200 flex items-center;
-                transition: all 0.3s ease;
-            }
-            
-            .skill-pill:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-            }
         }
     }
     .section-fade {
