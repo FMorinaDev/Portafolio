@@ -15,10 +15,11 @@
 
                     <h3>Cursos Realizados</h3>
                     <div class="contenedor-cursos">
-                        <div v-for="curso in cursos" :key="curso.id" :class="{'redirect' : curso.link}" @click="redirect(curso.link)">
+                        <div v-for="curso in cursos" :key="curso.id" class="curso">
                             <h4>{{ curso.titulo }}</h4>
                             <p class="institucion">{{ curso.institucion }}</p>
                             <p class="tiempo" v-if="curso.tiempo">{{ curso.tiempo }}</p>
+                            <component :is="linkIcon" class="chat-item redirect w-6 h-6" @click="redirect(curso.link)" />
                         </div>
                     </div>
                 </div>
@@ -28,7 +29,9 @@
 </template>
 <script setup>
 import { educacion } from '@/data/data'; 
+import linkIcon from '@/assets/icons/link.svg?component'
 const cursos = educacion.filter(item => item.tipo === 'curso');
+
 const universitario = educacion.filter(item => item.tipo === 'universitario');
 const redirect = (link) => {
     if (link) {
@@ -50,8 +53,8 @@ const redirect = (link) => {
         .contenedor-cursos,
         .contenedor-universitario{
             @apply grid grid-cols-1 md:grid-cols-2 gap-6 mb-12;
-            div{
-                @apply bg-white rounded-xl shadow-md p-6 border-t-4 border-indigo-500;
+            .curso{
+                @apply relative bg-white rounded-xl shadow-md p-6 border-t-4 border-indigo-500;
                 h4{
                     @apply text-lg font-bold text-gray-800;
                 }
@@ -60,6 +63,9 @@ const redirect = (link) => {
                 }
                 .tiempo{
                     @apply text-gray-600;
+                }
+                .chat-item{
+                    @apply absolute bottom-2 right-2;
                 }
             }
         }

@@ -1,5 +1,5 @@
 <template>
-  <div class="chip"  :class="resumido ? 'p-4' :'px-6 py-4'" >
+  <div class="chip-item"  :class="resumido ? 'p-4' :'px-6 py-4'" >
     <component :is="skill.icono" class="w-6 h-6" :class="{'mr-3' : !resumido}" />
     <span class="font-medium" v-if="!resumido">{{ skill.nombre }}</span>
   </div>
@@ -20,7 +20,7 @@ const props = defineProps({
 })
 </script>
 <style lang="postcss" scoped>
-.chip {
+.chip-item {
     @apply bg-white rounded-full shadow-md border border-gray-200 flex items-center;
     transition: all 0.3s ease;
 }

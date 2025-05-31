@@ -130,7 +130,7 @@ export const educacion = [
     {
         tipo: 'curso',
         titulo: 'Cypress: Master en automatización Test QA',
-        link: 'www.udemy.com/course/cypress-master-en-automatizacion-de-pruebas-y-qa-espanol/',
+        link: 'https://www.udemy.com/course/cypress-master-en-automatizacion-de-pruebas-y-qa-espanol/',
         institucion: 'Udemy',
         tiempo: '29 Horas'
     },
