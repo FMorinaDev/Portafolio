@@ -3,7 +3,7 @@
         <div class="contenedor">
             <div class="informacion">
                 <h1>Franco Miguel Morina Comoglio</h1>
-                <h2>Desarrollador Full Stack</h2>
+                <h2>Desarrollador Full Stack | TL</h2>
                 <p>
                     Apasionado de la programación con residencia actual en Córdoba Capital. 
                     Especializado en desarrollo web y móvil con experiencia en múltiples tecnologías.

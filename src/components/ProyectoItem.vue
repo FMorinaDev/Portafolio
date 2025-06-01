@@ -5,7 +5,7 @@
     >
         <h4 >{{ proyecto.nombre }}</h4>
         <div>
-            probando que esto se muestre correctamente porque no se que puede pasar sino
+            {{ proyecto.descripcion }}
         </div>
         <div class="git-demo">
             <ChipItem :skill="{ icono: githubIcon }" :resumido="true" class="chip" v-if="proyecto.github" @click="redirect(proyecto.github)"></ChipItem>

@@ -63,26 +63,26 @@ export const experiencia = [
         empresa: 'AULICA',
         tiempo: 'Oct 2021 - Actualidad',
         ubicacion: 'Córdoba, Argentina',
-        detalles: 'Actualmente como Desarrollador Full Stack y Lider Tecnico de un equipo de desarrollo. Me especializo en HTML, CSS, Vue.js, jQuery, C#, Node.js, así como bases de datos como Oracle, MySQL y MongoDB. Además estoy desarrollando aplicaciones multiplataforma con Flutter y haciendo test automáticos con Cypress.'
+        detalles: 'Actualmente, como Desarrollador Full Stack y Líder Técnico de un equipo de desarrollo. Me especializo en HTML, CSS, JavaScript, Vue.js, jQuery, C#, Node.js, Oracle, MySQL, MongoDB, Flutter y Cypress.'
     },
     {
         cargo: 'Desarrollador web Full Stack',
         empresa: 'Dux Software',
         tiempo: 'Jun 2021 - Oct 2021',
         ubicacion: 'Córdoba, Argentina',
-        detalles: 'Comencé mi trayectoria laboral en esta empresa. Usando html, css, js, java y Oracle.'
+        detalles: 'Comencé mi trayectoria laboral en esta empresa. Usando HTML, CSS, JavaScript, Java y Oracle.'
     }
 ]
 export const sobreMi = [
-    'Soy Franco, desarrollador Full Stack con mas de 4 años de experiencia. Me forme como Tenico en programacion en la Universidad Tenologica Nacional de Cordoba y actualmente me sigo formando a traves de cursos que me ayudan a ampliar mis conocimientos y habilidades en nuevas tecnologias y lenguajes.',
-    'Comencé mi trayectoria laboral como Full Stack en Dux Software, donde trabaje con tecnologías como Java, CSS, JavaScript, PrimeFaes y Oracle. Me desarrolle en la emprea durante 3 meses en los cuales pude adquirir conocimientos y habilidades que me ayudaron a asentar las bases de mi experiencia tecnica.',
-    `Actualmente, me encuentro trabajando como Full Stack en 'Aulica', en donde soy TL de mi equipo de desarrollo lo cual me ayuda a su vez a expandir mi conjunto de habilidades. Mis áreas de especialización incluyen HTML, CSS, Vue.js, jQuery, C#, Node.js, así como bases de datos como Oracle, MySQL y MongoDB. Además estoy desarrollando aplicaciones multiplataforma en Flutter y creando test automaticos en Cypress.`,
-    'Me interesa seguir aprendiendo por lo que estoy siempre buscando nuevas oportunidades para crecer y desarrollarme tanto profesional como personalmente. Me encantaria poder concetar con profesionales de ideas afines y explorar posibles colaboraciones y proyectos interesantes.',
+    'Soy Franco, desarrollador Full Stack con más de 4 años de experiencia. Me formé como técnico en programación en la Universidad Tecnológica Nacional de Córdoba y actualmente me sigo formando a través de cursos que me ayudan a ampliar mis conocimientos y habilidades en nuevas tecnologías y lenguajes.',
+    `Comencé mi trayectoria laboral como Full Stack en 'Dux Software', donde trabajé con tecnologías como Java, CSS, JavaScript, PrimeFaces y Oracle. Me desarrollé en la empresa durante 3 meses en los cuales pude adquirir conocimientos y habilidades que me ayudaron a asentar las bases de mi experiencia técnica.`,
+    `Actualmente, me encuentro trabajando como Full Stack en 'Aulica', en donde soy TL de mi equipo de desarrollo, lo cual me ayuda a su vez a expandir mi conjunto de habilidades. Mis áreas de especialización incluyen HTML, CSS, JavaScript, Vue.js, jQuery, C#, Node.js, así como bases de datos como Oracle, MySQL y MongoDB. Además, estoy desarrollando aplicaciones multiplataforma en Flutter y creando test automáticos en Cypress.`,
+    'Me interesa seguir aprendiendo, por lo que estoy siempre buscando nuevas oportunidades para crecer y desarrollarme tanto profesional como personalmente. Me encantaría poder conectar con profesionales de ideas afines y explorar posibles colaboraciones y proyectos interesantes.',
 ]
 export const educacion = [
     {
         tipo: 'universitario',
-        titulo: 'Técnico Universitario en Programacion',
+        titulo: 'Técnico Universitario en Programación',
         institucion: 'UTN FRC',
         tiempo: 'Feb 2019 - Jun 2022'
     },
@@ -297,41 +297,49 @@ export const habilidades = [
 export const proyectos = [
     {
         nombre: 'Cotizador de Criptomonedas',
+        descripcion: 'App que compara criptomonedas usando APIs de datos en tiempo real. Permite ver precios y tendencias',
         github: 'https://github.com/FMorinaDev/comparadorCrypto',
         demo: 'https://comparadorcrpto.netlify.app'
     },
     {
         nombre: 'Administrador de Gastos',
+        descripcion: 'App para administrar gastos e ingresos',
         github: 'https://github.com/FMorinaDev/AdministradorGastos',
         demo: 'https://administradorgastosfm.netlify.app'
     },
     {
         nombre: 'Seguimiento de Pacientes Veterinaria ',
+        descripcion: 'App de gestión de pacientes para veterinarias',
         github: 'https://github.com/FMorinaDev/PacientesVeterinaria',
         demo: 'https://pacientesveterinariafm.netlify.app'
     },
     {
         nombre: 'GuitarLA',
+        descripcion: 'Un catálogo de guitarras',
         github: 'https://github.com/FMorinaDev/guitarLA',
         demo: 'https://guitarlafm.netlify.app'
     },
     {
         nombre: 'Buscador Multicampos',
+        descripcion: 'App para buscar por varios campos a la vez en una lista de manera local',
         github: 'https://github.com/FMorinaDev/BuscadorMultiCampos',
         demo: 'https://buscadormulticamposfm.netlify.app'
     },
     {
         nombre: 'Envio Email',
+        descripcion: 'Front end de envio de email',
         github: 'https://github.com/FMorinaDev/EnvioMail',
         demo: 'https://enviaremailfm.netlify.app'
     },
     {
         nombre: 'Carrito de Compras HTML',
+        descripcion: 'Catálogo simple con funcionalidad de carrito de compras.',
         github: 'https://github.com/FMorinaDev/CarritoCompras',
         demo: 'https://carritocomprashtmlfm.netlify.app'
     },
     {
         nombre: 'Cypress',
+        descripcion: 'Proyecto de pruebas automatizadas usando Cypress.',
         github: 'https://github.com/FMorinaDev/cypress',
     },
 ]

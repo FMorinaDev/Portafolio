@@ -6,7 +6,7 @@
                 <div class="max-w-4xl mx-auto">
                     <h3>Educación Universitaria</h3>
                     <div class="contenedor-universitario">
-                        <div v-for="item in universitario" :key="item.id">
+                        <div v-for="item in universitario" :key="item.id" class="carrera">
                             <h4>{{ item.titulo }}</h4>
                             <p class="institucion">{{ item.institucion }}</p>
                             <p class="tiempo">{{ item.tiempo }}</p>
@@ -53,6 +53,7 @@ const redirect = (link) => {
         .contenedor-cursos,
         .contenedor-universitario{
             @apply grid grid-cols-1 md:grid-cols-2 gap-6 mb-12;
+            .carrera,
             .curso{
                 @apply relative bg-white rounded-xl shadow-md p-6 border-t-4 border-indigo-500;
                 h4{
