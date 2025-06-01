@@ -34,6 +34,9 @@ export const links = [
   { nombre: 'Facebook', url: 'https://www.facebook.com/profile.php?id=100011783949360', icono: IconFacebook, size: 18 },
   { nombre: 'LinkedIn', url: 'https://www.linkedin.com/in/franco-miguel-morina-comoglio-8a364565/', icono: IconLinkedin },
 ]
+const fechaInicio = new Date('2021-06-01');
+const fechaActual = new Date();
+const diferenciaAnios = fechaActual.getFullYear() - fechaInicio.getFullYear() - (fechaActual < new Date(fechaActual.getFullYear(), fechaInicio.getMonth(), fechaInicio.getDate()) ? 1 : 0);
 
 export const datosPersonales = [
     {
@@ -74,7 +77,7 @@ export const experiencia = [
     }
 ]
 export const sobreMi = [
-    'Soy Franco, desarrollador Full Stack con más de 4 años de experiencia. Me formé como técnico en programación en la Universidad Tecnológica Nacional de Córdoba y actualmente me sigo formando a través de cursos que me ayudan a ampliar mis conocimientos y habilidades en nuevas tecnologías y lenguajes.',
+    `Soy Franco, desarrollador Full Stack con más de ${diferenciaAnios} años de experiencia. Me formé como técnico en programación en la Universidad Tecnológica Nacional de Córdoba y actualmente me sigo formando a través de cursos que me ayudan a ampliar mis conocimientos y habilidades en nuevas tecnologías y lenguajes.`,
     `Comencé mi trayectoria laboral como Full Stack en 'Dux Software', donde trabajé con tecnologías como Java, CSS, JavaScript, PrimeFaces y Oracle. Me desarrollé en la empresa durante 3 meses en los cuales pude adquirir conocimientos y habilidades que me ayudaron a asentar las bases de mi experiencia técnica.`,
     `Actualmente, me encuentro trabajando como Full Stack en 'Aulica', en donde soy TL de mi equipo de desarrollo, lo cual me ayuda a su vez a expandir mi conjunto de habilidades. Mis áreas de especialización incluyen HTML, CSS, JavaScript, Vue.js, jQuery, C#, Node.js, así como bases de datos como Oracle, MySQL y MongoDB. Además, estoy desarrollando aplicaciones multiplataforma en Flutter y creando test automáticos en Cypress.`,
     'Me interesa seguir aprendiendo, por lo que estoy siempre buscando nuevas oportunidades para crecer y desarrollarme tanto profesional como personalmente. Me encantaría poder conectar con profesionales de ideas afines y explorar posibles colaboraciones y proyectos interesantes.',
